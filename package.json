@@ -1,0 +1,23 @@
+{
+  "name": "latergram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --kill-others \"cd frontend && npm start\" \"cd backend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinpursuit/latergram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinpursuit/latergram/issues"
+  },
+  "homepage": "https://github.com/joinpursuit/latergram#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
